@@ -34,6 +34,4 @@ if (forma === 'quadrado') {
 } else {
     area = (altura * comprimento) / 2;
 }
-
-P4ss4pr4m1m *
-    console.log(area);
+console.log(area);
