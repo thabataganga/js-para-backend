@@ -28,3 +28,8 @@ class ClientePoupanca extends Cliente {
 const andre = new ClientePoupanca("Andre", "andre@email.com", "123123213123", 100, 200);
 
 console.log(andre);
+
+andre.depositar(50);
+andre.depositarPoupanca(50);
+
+console.log(andre);
