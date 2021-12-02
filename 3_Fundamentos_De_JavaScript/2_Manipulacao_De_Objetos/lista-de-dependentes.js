@@ -23,4 +23,4 @@ cliente.dependentes.push({
 
 const filhaMaisNova = cliente.dependentes.filter(dependentes => dependentes.dataNasc === "04/01/2014");
 
-console.log(filhaMaisNova);
+console.log(filhaMaisNova[0].nome);
