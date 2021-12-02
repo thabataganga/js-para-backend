@@ -10,3 +10,8 @@ console.log(cliente);
 cliente.fone = "213123123123123";
 
 console.log(cliente);
+
+// Para deletar campos
+delete cliente.fone;
+
+console.log(cliente);
